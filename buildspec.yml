@@ -13,9 +13,6 @@ phases:
   build:
     commands:
       - npm run build
-      - echo Testing...
-      - echo Building...
-      - yarn build
      
 artifacts:
   files:
