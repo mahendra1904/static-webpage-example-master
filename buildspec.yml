@@ -5,8 +5,7 @@ phases:
     commands:
       - echo Installing Node 12...
       - npm i npm@latest -g
-      - pip install --upgrade pip
-      - pip install --upgrade awscli
+     
   pre_build:
     commands:
       - echo Installing dependencies...............
